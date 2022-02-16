@@ -36,7 +36,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"iPhone 15\",\r\n    \"description\": \"Smart Phone\",\r\n    \"price\": 999.99,\r\n    \"inventory_quantity\": 2\r\n}",
+					"raw": "{\r\n    \"title\": \"Super Man Toy\",\r\n    \"description\": \"A super hero action figure representing Superman\",\r\n    \"price\": 10.0,\r\n    \"inventory_quantity\": 12,\r\n    \"picture\": \"N/A\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,7 +94,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"iPhone 3\",\r\n    \"description\": \"Smart Phone\",\r\n    \"price\": 19.99,\r\n    \"inventory_quantity\": 99\r\n}",
+					"raw": "{\r\n    \"title\": \"Super Man Toy\",\r\n    \"description\": \"A super hero action figure representing Superman\",\r\n    \"price\": 10.0,\r\n    \"inventory_quantity\": 12,\r\n    \"picture\": \"N/A\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -125,7 +125,24 @@
 			"name": "Delete_Product",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/products/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products",
+						"4",
+						""
+					]
+				}
 			},
 			"response": []
 		}
